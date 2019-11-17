@@ -1,0 +1,43 @@
+:root {
+    --blue: #325d79;
+}
+
+h1 {
+    margin: 2em 0;
+}
+
+.bg-primary {
+    background-color: var(--blue)!important;
+}
+
+.btn-primary {
+    background-color: var(--blue)!important;
+}
+
+.btn-primary:hover {
+    background-color: #3a89bd!important;
+}
+
+nav ul {
+    padding: .5em;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    max-width: 860px;
+  }
+
+  #timecode, #addcode {
+    min-width: 230px;
+    max-width: 400px;
+  }
+
+  @media screen and (min-width: 650px) {
+      form {
+          flex-direction: row;
+      }
+  }
